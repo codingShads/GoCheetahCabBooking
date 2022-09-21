@@ -1,0 +1,13 @@
+icbt\Person.class
+icbt\Authenticate.class
+icbt\ICBTService_Service.class
+icbt\ObjectFactory.class
+icbt\ICBTService.class
+icbt\Getperson.class
+icbt\GetPersons.class
+icbt\package-info.class
+icbt\AuthenticateResponse.class
+icbt\User.class
+com\mycompany\web\client\Util.class
+icbt\GetpersonResponse.class
+icbt\GetPersonsResponse.class
