@@ -155,7 +155,7 @@
                                 <p><% out.print(rs.getString("tripstatus"));%></p>
                             </td>
                             <td class="edit">
-                                <a href='updateSales.jsp?sale=<%rs.getString("salesid");%>'>Edit</a>
+                                <a href='updateSales.jsp?sale=<%rs.getString("salesid");%>'>Manage</a>
                             </td>
                         </tr>
 

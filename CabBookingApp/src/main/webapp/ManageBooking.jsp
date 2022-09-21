@@ -170,6 +170,7 @@
             %>
             <div class="center-item">
                 <table class="table table-hover">
+                    <strong>
                     <thead>
                         <tr>
                             <th scope="col">#</th>
@@ -204,6 +205,7 @@
                 } catch (Exception e) {
                     e.printStackTrace();
                 }%>
+                </strong>
                 </table>
             </div>
 

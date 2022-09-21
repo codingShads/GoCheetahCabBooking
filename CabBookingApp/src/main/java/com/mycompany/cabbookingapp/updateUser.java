@@ -56,7 +56,7 @@ public class updateUser extends HttpServlet {
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/cabbooking", "root", "pass");
             //statement = connection.createStatement();
             //String insertQuery = update new_table set firstName=?, contact=? where id=?;
-            PreparedStatement pst = connection.prepareStatement("update new_table set firstName=?, contact=? where id=?");
+            PreparedStatement pst = connection.prepareStatement("update new_table set email=?, name=? where id=?");
             pst.setString(1, updatename);
             pst.setString(2, updatefullname);
             pst.setString(3, id);

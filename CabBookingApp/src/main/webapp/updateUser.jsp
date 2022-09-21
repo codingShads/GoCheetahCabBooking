@@ -48,7 +48,7 @@
             </div>
 
             <h3 class="i-name">
-                Add Driver Information
+                Update Users
             </h3>
 
             <%
@@ -78,12 +78,12 @@
                             <td><input type="hidden" value="<% out.print(rs.getString("id"));%>" id="id" name="id"></td>
                         </tr>
                         <tr>
-                            <td>Username:</td>
-                            <td><input type="text" value="<% out.print(rs.getString("firstName"));%>" id="name" name="name"></td>
+                            <td>Email</td>
+                            <td><input type="text" value="<% out.print(rs.getString("email"));%>" id="name" name="name"></td>
                         </tr>
                         <tr>
                             <td>Full name</td>
-                            <td><input type="text" value="<% out.print(rs.getString("contact"));%>" id="fullname" name="fullname"></td>
+                            <td><input type="text" value="<% out.print(rs.getString("name"));%>" id="fullname" name="fullname"></td>
                         </tr>
                         <%
 

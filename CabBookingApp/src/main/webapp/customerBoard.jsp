@@ -114,7 +114,8 @@
                             <td>Title</td>
                             <td>Status</td>
                             <td>Status</td>
-                            <td>Status</td>
+                            <td>Edit</td>
+                            <td>Delete</td>
                         </tr>
                     </thead>
                     <tbody>
@@ -153,7 +154,10 @@
                             </td>
                             <td class="edit">
                                 <a href='updateCustomer.jsp?user=<%rs.getString("cusid");%>'>Edit</a>
-                                <a href="">Edit</a>
+                                
+                            </td>
+                            <td class="edit">
+                                <a href="">Delete</a>
                             </td>
                         </tr>
 

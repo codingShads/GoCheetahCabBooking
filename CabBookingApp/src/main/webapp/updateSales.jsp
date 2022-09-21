@@ -37,7 +37,7 @@
             <div class="navigation">
                 <div class="n1">
                     <div class="search">
-                        <h1>Update User</h1>
+                        <h1>Manage Booking</h1>
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@
             </div>
 
             <h3 class="i-name">
-                Add Driver Information
+                Booking Information
             </h3>
 
             <%

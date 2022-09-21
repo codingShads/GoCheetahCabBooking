@@ -118,6 +118,7 @@
                             <td>Status</td>
                             <td>Status</td>
                             <td>Status</td>
+                            <td>Status</td>
                         </tr>
                     </thead>
                     <tbody>
